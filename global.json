@@ -1,0 +1,6 @@
+{
+    "msbuild-sdks": {
+        "Microsoft.macOS.Sdk": "10.15.100-ci.main.751+sha.5ced9ee97"
+    }
+}
+

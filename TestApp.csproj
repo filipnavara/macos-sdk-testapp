@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.macOS.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0-macos</TargetFramework>
+    <RuntimeIdentifier>osx-x64</RuntimeIdentifier>
+    <OutputType>Exe</OutputType>
+    <!--<_LibMonoLinkMode>static</_LibMonoLinkMode>-->
+    <_LibXamarinLinkMode>static</_LibXamarinLinkMode>
+    <MonoBundlingExtraArgs>--marshal-objectivec-exceptions:disable</MonoBundlingExtraArgs>
+  </PropertyGroup>
+  <ItemGroup>
+    <InterfaceDefinition Include="Main.storyboard" />
+  </ItemGroup>
+</Project>
